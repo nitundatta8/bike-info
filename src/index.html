@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>Bike Index</title>
@@ -5,11 +6,12 @@
   <body>
     <div class="container">
       <h1>Get Bike Information</h1>
-      <input id="location" type="text" placeholder="Enter a location">
-      <button class="btn-success" id="bikeInfo">Get Current Bike Data</button>
+      <label for="locationInfo">Enter a location</label><br>
+      <input id="location" type="text" placeholder="Seattle, WA - US"><br><br>
+      <button class="btn-success" id="bikeInfo">Get Current Bike Data</button><br><br>
       <div id="showBikeCount"></div>
       <div id="showRedColorCount"></div>
-      <div id="showBlueColorCount"></div>
+      <div id="showError"></div>
     </div>
   </body>
 </html>
